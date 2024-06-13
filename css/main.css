@@ -19,6 +19,12 @@ body {
   background-color: black;
 }
 
+@media (max-width: 786px) {
+  body {
+    margin: 20px auto;
+  }
+}
+
 h1 {
   font-size: 35px;
   color: #fff;
