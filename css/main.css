@@ -47,12 +47,13 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
 .social a {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   padding: 10px;
   border-radius: 50%;
   border: 1px solid #fff;
@@ -62,8 +63,19 @@ h1 {
   max-width: 100%;
   object-fit: cover;
   transition: all 0.3s;
+  margin-bottom: 10px;
 }
 
 .social a:hover img {
   transform: scale(1.2);
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+a span {
+  color: #fff;
+  font-size: 18px;
 }
